@@ -1,0 +1,88 @@
+@charset "UTF-8"
+
+article, aside, footer, header, main ,nav, section {
+	display: block;
+}
+h1, h2, h3, h4, h5, ul, li, a, p, aside {
+	padding: 0;
+	margin: 0;
+}
+
+.banner {
+	width: 100%;
+	padding: 20px;
+	height: 50px;
+	background-color: skyblue;
+	color: black;
+	text-align: left;
+	font: normal Georgia, sans-serif;
+}
+
+body {
+	position: static;
+	width: 100%;
+	margin-left: 0px;
+	margin-right: 0px;
+	margin-top: 0px;
+	background-color: #eef3f5;
+	padding: 0px;
+}
+
+.text {
+	padding: 20px;
+}
+
+
+.nav {
+	height: 40px;
+	background-color: plum;
+	font-size: 20px;
+}
+.nav ul {
+	margin: 0;
+	padding: 0;
+}
+.nav ul li {
+	list-style: none;
+}
+.nav ul li a{
+	text-decoration: none;
+	float: left;
+	display: block;
+	padding: 10px 20px;
+	color: black;
+}
+.nav ul li a:hover{ 
+	color: white;
+}
+
+
+.officersContent ul{
+	padding: 30px;
+	margin: 0;
+}
+
+.officersContent ul li{
+	list-style: none;
+}
+
+.officersContent ul li a{
+	text-decoration: none;
+	color: purple;
+}
+
+.aboutUsContent{
+	padding: 30px;
+}
+
+footer {
+	position: fixed; top: 730px; left: 10px;
+}
+
+.contact {
+	position: fixed; top: 670px; left: 10px;
+}
+
+aside {
+	float: right;
+}
