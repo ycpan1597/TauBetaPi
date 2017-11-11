@@ -59,14 +59,14 @@ body {
 	color: white;
 }
 
-.homeContent {
+.homeContent, .aboutUsContent{
 	width: 900px;
 	height: 100%;
 	margin-left: auto;
 	margin-right: auto;
 }
 
-.homeContnet p {
+.text{
 	padding: 20px;
 }
 
@@ -141,17 +141,6 @@ nav a:hover{
 	float: right;
 	color: white;
 	padding-right: 38px;
-}
-
-.aboutUsContent {
-	width: 900px;
-	height: 100%;
-	margin-left: auto;
-	margin-right: auto;
-}
-
-.aboutUsContent p {
-	padding: 20px;
 }
 
 footer {
