@@ -56,9 +56,17 @@ body {
 	margin-top: 0;
 	background-color: #5B4343;
 	padding: 0px;
+	color: white;
 }
 
-.text {
+.homeContent {
+	width: 900px;
+	height: 100%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.homeContnet p {
 	padding: 20px;
 }
 
@@ -93,11 +101,10 @@ nav a:hover{
 
 
 .officers {
-	width: 700px;
-	height: 500px;
+	width: 900px;
+	height: 600px;
 	margin-left: auto;
 	margin-right: auto;
-	border: solid;
 }
 
 .officers h2 {
@@ -106,8 +113,8 @@ nav a:hover{
 }
 
 .officers p {
-	height: 500px;
-	width: 300px;
+	width: 400px;
+	height: 600px;
 	float: right;
 	color: white;
 	padding-right: 38px;
@@ -136,12 +143,19 @@ nav a:hover{
 	padding-right: 38px;
 }
 
-.aboutUsContent{
-	padding: 30px;
+.aboutUsContent {
+	width: 900px;
+	height: 100%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.aboutUsContent p {
+	padding: 20px;
 }
 
 footer {
-	position: absolute; top: 680px; left: 10px;
+	position: relative; top: 470px; 
 }
 
 aside {
