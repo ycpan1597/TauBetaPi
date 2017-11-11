@@ -1,0 +1,149 @@
+@charset "UTF-8"
+
+article, aside, footer, header, main ,nav, section {
+	display: block;
+}
+
+h1, h2, h3, h4, h5, ul, li, a, p {
+	padding: 0;
+	margin: 0;
+	font-family: fantasy;
+
+}
+
+.text, footer {
+	color: white;
+}
+
+
+.banner {
+	width: 1400px;
+	padding: 20px;
+	height: 60px;
+	margin: 0;
+	background-color: none;
+	font-family: fantasy;
+}
+
+.banner h1,h3 {
+	color: #5B4343;
+	text-align: center;
+}
+
+
+
+.uwLogo {
+	position: absolute; top: 20px; left: 1275px;
+	height: 89.65px;
+	width: 130px;
+}
+.tbpLogo {
+	position: absolute; top: 20px; left: 15px;
+	height: 95px;
+	width: 95px;
+}
+
+header {
+	width: 100%;
+	height: 150px;
+	background-color: white;
+}
+body {
+	position: relative;
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 0;
+	background-color: #5B4343;
+	padding: 0px;
+}
+
+.text {
+	padding: 20px;
+}
+
+nav {
+	height: 40px;
+	width: 700px;
+	font-size: 20px;
+	background-color: none;
+	margin-left:auto;
+	margin-right:auto;
+}
+nav ul {
+	list-style: none;
+}
+
+nav li {
+	display: inline-block;
+}
+
+nav a {
+	text-decoration: none;
+	position: relative; left: 25px;
+	padding: 40px;
+	color: #5B4343;
+	font-family: fantasy;
+
+}
+
+nav a:hover{ 
+	color: purple;
+}
+
+
+.officers {
+	width: 700px;
+	height: 500px;
+	margin-left: auto;
+	margin-right: auto;
+	border: solid;
+}
+
+.officers h2 {
+	padding: 10px;
+	color: white;
+}
+
+.officers p {
+	height: 500px;
+	width: 300px;
+	float: right;
+	color: white;
+	padding-right: 38px;
+}
+
+.officersRight {
+	width: 700px;
+	height: 500px;
+	margin-left: auto;
+	margin-right: 0;
+	border: solid;
+	float: right;
+	position: absolute; top: 150px; left: 720px;
+}
+
+.officersRight h2 {
+	padding: 10px;
+	color: white;
+}
+
+.officersRight p {
+	height: 500px;
+	width: 300px;
+	float: right;
+	color: white;
+	padding-right: 38px;
+}
+
+.aboutUsContent{
+	padding: 30px;
+}
+
+footer {
+	position: absolute; top: 680px; left: 10px;
+}
+
+aside {
+	float: right;
+}

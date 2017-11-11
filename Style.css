@@ -9,22 +9,40 @@ h1, h2, h3, h4, h5, ul, li, a, p, aside {
 }
 
 .banner {
-	width: 100%;
+	width: 1400px;
 	padding: 20px;
-	height: 50px;
-	background-color: skyblue;
-	color: black;
-	text-align: left;
-	font: normal Georgia, sans-serif;
+	height: 60px;
+	margin: 0;
+	background-color: #321414;
+	font-family: fantasy;
+}
+
+.banner h1 {
+	color: white;
+	position: relative; left: 115px;
+}
+
+.banner h3 {
+	color: white;
+	position: relative; left: 115px;
+}
+.uwLogo img {
+	position: absolute; top: 20px; left: 1250px;
+	height: 89.65px;
+	width: 130px;
+}
+.tbpLogo img {
+	position: absolute; top: 10px; left: 10px;
+	height: 120px;
+	width: 120px;
 }
 
 body {
-	position: static;
-	width: 100%;
+	width: 1400px;
 	margin-left: 0px;
 	margin-right: 0px;
 	margin-top: 0px;
-	background-color: #eef3f5;
+	background-color: white;
 	padding: 0px;
 }
 
@@ -32,43 +50,55 @@ body {
 	padding: 20px;
 }
 
-
 .nav {
 	height: 40px;
-	background-color: plum;
+	width: 1440px;
 	font-size: 20px;
+	margin-left: 0;
+	margin-right: auto;
+	background-color: #321414;
 }
-.nav ul {
-	margin: 0;
-	padding: 0;
-}
+
 .nav ul li {
 	list-style: none;
 }
+
 .nav ul li a{
 	text-decoration: none;
 	float: left;
 	display: block;
-	padding: 10px 20px;
-	color: black;
+	padding: 10px 10px;
+	color: white;
+	font-family: fantasy;
+	position: relative; left: 115px;
 }
 .nav ul li a:hover{ 
-	color: white;
+	color: darkviolet;
+	text-decoration: underline;
 }
 
 
-.officersContent ul{
+.officers {
+	width: 1100px;
+	padding: 0px;
+	margin-left: auto;
+	margin-right: auto;
+	border-style: solid;
+}
+
+.officerContent{
+	height: 500px;
+	width: 1100px;
+	margin-left:0;
+	border-style: solid;
+}
+
+.officerContent p{
+	height: 400px;
+	width: 300px;
 	padding: 30px;
-	margin: 0;
-}
-
-.officersContent ul li{
-	list-style: none;
-}
-
-.officersContent ul li a{
-	text-decoration: none;
-	color: purple;
+	border-style: solid;
+	border-color: red;
 }
 
 .aboutUsContent{
